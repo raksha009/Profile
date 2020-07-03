@@ -1,0 +1,214 @@
+body{
+            padding: 0px;
+            margin: 0px;
+            line-height: 1.5em;
+            width:100%;
+        }
+        #header{
+            background-color: #0E4D57;
+            height: 410px;
+        }
+        
+        #myportfolio{
+            color: white;
+            padding: 25px 0px 0px 150px;
+            font-size: 30px;
+            font-family:Comic Sans MS;
+        }
+        #sidebuttonsnavigator{
+            float: left;
+            margin-left: 780px;
+            color:white;
+            margin-top: -29px;
+        }
+        
+        a:hover{
+            color:brown;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-family:Comic Sans MS;
+            font-size: 20px;
+            
+        }
+        hr{
+            padding:0px 100px 0px 200px;
+            width:800px;  /*this helped in adjusting hr line position ... if it doesn't use textalign:center too*/
+            
+        }
+        #name{
+            color: #ECCAE7;
+            font-weight: bold;
+            font-family:Aclonica;
+            margin: 180px 0px 0px 170px;
+            font-size: 70px;
+/*            color: :transparent;*/
+        }
+/*
+        h2:before{
+            content: attr(data-text);
+            position: absolute;
+            top:0;
+            left:0;
+            width: 100%;
+            height:100%;
+            color:#ECCAE7;
+            overflow: hidden;
+            border-right: 1px solid #fff;
+            white-space: nowrap;
+            animation:animate 10s steps(25) infinite;
+            
+        }
+        @keyframes animate{
+            0%{width: 0;}
+            50%{width: 100%;}
+            100%{width: 0;}
+        }
+*/
+        #coverline{
+            font-family: Acme;
+            color: antiquewhite;
+/*            font-weight: bold;*/
+            margin: 40px 0px 0px 170px;
+            font-size: 30px;
+        }
+        
+
+        #aBOUTT-section {
+            background: url(campus.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+            margin: -25px 0px 0px 0px;
+            padding-right: 0px;
+            padding-left: 0px;
+            height: 600px;
+            padding-top: 0px;
+            opacity:0.6;
+            
+        }
+        
+/*
+        #textbox{
+            width:auto;
+            height: 300px;
+            background-color:#9ACAF3;
+            padding:30px;
+            margin:50px;
+            
+        }
+*/
+        
+        #aboutme{
+            font-weight: bold;
+            font-size: 45px;
+            font-family: Aclonica ;
+            margin: 65px 0px 0px 0px;
+            color: #7E16AE;
+            text-shadow: 4px 4px 5px black;
+            text-align: center;
+        }
+        
+        #aboutmetext{
+            text-align: center;
+            opacity:1.0;
+            margin: 0px 50px 0px 50px;
+            font-size: 20px;
+            font-weight: 900;
+            text-shadow: 3px 3px 5px white;
+        }
+        
+        .restSection{
+            background-color:  #0E4D57;
+            margin-top: -65px;
+            height: 1250px;
+        }
+        
+        #Experience, #contact{
+            font-weight: bold;
+            text-align: center;
+            font-size: 45px;
+            font-family: Aclonica ;
+            margin: 65px 0px 0px 0px;
+            color: white;
+            text-shadow: 4px 4px 4px grey;
+            padding-top: 40px;
+        }
+        
+        #experiencetext{
+            color: aliceblue;
+            padding: 40px 120px 0px 100px;
+            font-size: 20px;
+        }
+        
+        #contacttext{
+            color: aliceblue;
+            padding: 10px 120px 0px 100px;
+            text-align: center;
+        }
+        
+        .footer{
+        background-color: black;
+        width: 100%;
+        color: white;
+        text-align: center;
+    }
+        .nav-toggle{
+            color: #0E4D57;
+        }
+/*        MOBILE RESPONSIVE*/
+    @media screen and (max-width: 768px) {
+        #header{
+            width: 100%;
+        }
+        
+        #myportfolio{
+            padding: 25px 0px 0px 50px;
+        }
+        .nav-toggle{
+            margin-top: 0px;
+            margin-left: 330px;
+            
+        }
+        hr{
+            size:5;
+            width: 100px;
+        }
+        #sidebuttonsnavigator {
+            margin-left: -110px;
+            display: none;
+        }
+        
+        .nav-toggle {
+            display: inline;
+            color: white;
+            padding-left:70px;
+        }
+        
+        #name{
+            margin-top: 150px;
+            margin-left: 20px;
+            font-size: 40px;
+        }
+        #coverline{
+            margin-left: 20px;
+            font-size:25px;
+        }
+        
+        #aboutme{
+            margin-top: 15px;
+        }
+        
+        .restSection{
+            height: 1800px;
+        }
+        .activate {
+            display: block;
+        }
+        
+        #contacttext{
+            padding-left: 70px;
+        }
+
+}
